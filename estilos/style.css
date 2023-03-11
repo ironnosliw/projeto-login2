@@ -40,6 +40,9 @@ section#login2 {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.435);
+
+    transition: width .3s, height .3s; /* peq animação na mudança de imagem */
+    transition-timing-function: ease; /* suavizar a mudança de imagem */
 }
 
 /* dentro da section#login2 temos uma div#imagem */
@@ -51,6 +54,7 @@ section#login2 > div#imagem {
         height: 200px;
 }
 
+/*dentro da section#login2 temos uma div#formulario */
 section#login2 > section#formulario {
         display: block;
         padding: 10px;
